@@ -14,5 +14,21 @@
     Write code for the transpose - you can use other variables as necessary but not a cpoy of the matrix 
     Print the transpose.
     */
-    return 0;
- }
+    for (int i =0; i<4;i++){
+      for (int j=0;j<4;j++){
+         a[i][j]= 2*i - j;
+      }
+    }
+
+    printf("Original matrix:\n");
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            a[i][j] = a[j][i];
+            printf("%3d", a[i][j]);
+        }
+        printf("\n");
+   return 0;
+      }
+
+}
+

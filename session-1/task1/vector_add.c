@@ -9,6 +9,10 @@
     float a[]={ 1.0,1.0,1.0,1.0,1.0 };
     float b[]={ 2.0,3.0,4.0,5.0,6.0 };
     float c[5];
+    for (int k=0; k<5;k++) {
+      c[k] = a[k] + b[k];
+      printf("%f\n",c[k]);
+    }
 
     /*
     Code to compute the sum
